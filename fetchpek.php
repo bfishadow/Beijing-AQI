@@ -2,7 +2,7 @@
 	do {
 		// Get data from us embassy in beijing
 		echo "Fetching data...<br />\n";
-		$url = "http://www.stateair.net/web/rss/1/1.xml"; // Chnage the data source if you want
+		$url = "http://www.stateair.net/web/rss/1/1.xml"; // Change the data source if you want
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
